@@ -2777,6 +2777,15 @@
       line-height: calc(var(--spacing) * 14);
     }
   }
+  .max-\[788px\]\:hover\:bg-\[\#156963\] {
+    @media (width < 788px) {
+      &:hover {
+        @media (hover: hover) {
+          background-color: #156963;
+        }
+      }
+    }
+  }
   .max-\[786px\]\:mt-\[10px\] {
     @media (width < 786px) {
       margin-top: 10px;
