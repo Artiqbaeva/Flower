@@ -2821,6 +2821,11 @@
       padding-inline: 15px;
     }
   }
+  .max-\[786px\]\:pl-\[15px\] {
+    @media (width < 786px) {
+      padding-left: 15px;
+    }
+  }
   .max-\[778px\]\:grid-cols-1 {
     @media (width < 778px) {
       grid-template-columns: repeat(1, minmax(0, 1fr));
