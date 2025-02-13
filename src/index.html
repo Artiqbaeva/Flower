@@ -1,255 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/output.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="icon" href="./assets/navbar.png">
-    <title>Document</title>
-  </head>
-  <body>
-    <nav
-      class="mx-auto grid grid-cols-2 max-[1580px]:grid max-[1580px]:grid-cols-1"
-    >
-      <div class="relative max-[1580px]:order-last">
-        <div class="">
-          <img
-            class="absolute t-0 pt-[40px] pl-[56px]"
-            src="./assets/navbar.png"
-            alt=""
-          />
-        </div>
-        <img class="w-full" src="./assets/nav.png" alt="" />
-      </div>
-      <div class="">
-        <ul class="flex gap-[20px] justify-end pt-[40px] pr-[40px]">
-          <li>
-            <a href="#"
-              ><i class="fa-solid fa-magnifying-glass hover:text-[#156963] cursor-pointer"></i
-            ></a>
-          </li>
-          <li>
-            <a href="#"
-              ><i class="fa-solid fa-cart-shopping hover:text-[#156963] cursor-pointer"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              class="text-[#156963] text-[14px] font-bold hover:text-white duration-400 hover:bg-[#156963] px-[32px] py-[8px] cursor-pointer"
-              href="#"
-              >Sign Up</a
-            >
-          </li>
-          <li>
-            <a
-              class="text-[#156963] text-[14px] font-bold hover:text-white duration-400 hover:bg-[#156963] px-[32px] py-[8px] cursor-pointer"
-              href="#"
-              >Sign In</a
-            >
-          </li>
-        </ul>
-        <div class="flex flex-col px-[77px] max-[788px]:px-[20px]">
-          <h1
-            class="font-Montserrat font-medium text-[68px] text-[#156963] leading-20 mt-[200px] max-[788px]:text-[45px] max-[788px]:leading-14 max-[788px]:mt-[100px]"
-          >
-            Kembang <br />
-            Flower Mantap
-          </h1>
-          <p
-            class="text-[#2C1500]/80 text-[22px] pr-[202px] mt-[50px] max-[788px]:pr-[70px] max-[788px]:text-[20px]"
-          >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,
-          </p>
-          <div class="flex gap-[20px] mt-[100px] max-[788px]:my-[30px]">
-            <button
-              class="cursor-pointer py-[40px] px-[50px] font-medium font-Montserrat text-[32px] text-[#156963] text-left w-[320px] min-h-[160px] mt-[110px] hover:bg-[#156963] duration-400 hover:text-white max-[788px]:w-[180px] max-[788px]:py-[5px] max-[788px]:px-[5px] max-[788px]:text-[20px] max-[788px]:text-center "
-            >
-              <img src="./assets/Frame.svg" alt="" />Kaktus
-            </button>
 
-            <button
-              class="cursor-pointer py-[40px] px-[30px] font-medium font-Montserrat text-[32px] text-[#156963] text-left w-[320px] min-h-[160px] mt-[110px] hover:bg-[#156963] duration-400 hover:text-white max-[788px]:w-[180px] max-[788px]:py-[5px] max-[788px]:px-[5px] max-[788px]:text-[20px] max-[788px]:text-center"
-            >
-              <img src="./assets/Frame.svg" alt="" />Rahasia Plant
-            </button>
-          </div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/output.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="./assets/navbar.png">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- navbar section -->
+  <header
+    class="w-full flex justify-between items-center absolute top-0 py-[30px] min-[450px]:py-[40px] min-[450px]:px-[56px] px-[30px] z-50">
+    <!-- logo -->
+    <img class="w-[36px] h-[36px]" src="./assets/logo.svg" alt="P logo" />
+
+    <!-- menu -->
+    <nav class="flex items-center gap-4">
+      <ul class="flex items-center gap-[40px] max-[450px]:hidden">
+        <li>
+          <a href="#">
+            <img src="./assets/search-icon.svg" alt="Search icon" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/shopping-cart.svg" alt="Shopping cart icon" />
+          </a>
+        </li>
+      </ul>
+
+      <div class="flex">
+        <a class="text-[#156963] text-[14px] font-bold px-[32px] py-[8px] cursor-pointer" href="#">
+          Sign Up
+        </a>
+        <a class="text-[14px] font-bold text-white duration-400 bg-[#156963] px-[32px] py-[8px] cursor-pointer hover:bg-[#155652]"
+          href="#">
+          Sign In
+        </a>
       </div>
     </nav>
+  </header>
 
-    <section
-      class="container mx-auto mt-[142px] grid grid-cols-4 gap-[32px] max-[1520px]:grid-cols-2 p-[10px] max-[778px]:grid-cols-1 max-[620px]:p-[30px] max-[620px]:mt-[30px]"
-    >
-      <div class="border-[#E0E0E0] border-2 py-[22px] px-[16px] min-w-[268px]">
-        <div class="flex items-center gap-[16px]">
-          <img src="./assets/fastdelivery.svg" alt="" />
-          <h2 class="text-[16px] text-[#156963] font-bold">
-            Fast <br />
-            Delivery
-          </h2>
-        </div>
-        <p class="mt-[16px] text-[#2C1500]">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard
-        </p>
-      </div>
-      <div class="border-[#E0E0E0] border-2 py-[22px] px-[16px] min-w-[268px]">
-        <div class="flex items-center gap-[16px]">
-          <img src="./assets/headphones 1.svg" alt="" />
-          <h2 class="text-[16px] text-[#156963] font-bold">
-            Great Customer <br />
-            Service
-          </h2>
-        </div>
-        <p class="mt-[16px] text-[#2C1500]">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard
-        </p>
-      </div>
-      <div class="border-[#E0E0E0] border-2 py-[22px] px-[16px] min-w-[268px]">
-        <div class="flex items-center gap-[16px]">
-          <img src="./assets/plant 1.svg" alt="" />
-          <h2 class="text-[16px] text-[#156963] font-bold">
-            Original <br />
-            Plants
-          </h2>
-        </div>
-        <p class="mt-[16px] text-[#2C1500]">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard
-        </p>
-      </div>
-      <div class="border-[#E0E0E0] border-2 py-[22px] px-[16px] min-w-[268px]">
-        <div class="flex items-center gap-[16px]">
-          <img src="./assets/dollar-symbol 1.svg" alt="" />
-          <h2 class="text-[16px] text-[#156963] font-bold">
-            Affordable <br />Price
-          </h2>
-        </div>
-        <p class="mt-[16px] text-[#2C1500]">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard
-        </p>
-      </div>
-    </section>
+  <!-- home section -->
+  <section class="w-full grid grid-cols-1 min-[900px]:grid-cols-2 h-screen">
+    <!-- image side -->
+    <div class="w-full h-screen hidden min-[900px]:flex">
+      <img class="w-full h-screen" src="./assets/nav.png" alt="Flowers wallpaper" />
+    </div>
 
-    <section class="container mx-auto mt-[83px] p-[10px] max-[620px]:p-[30px]">
-      <div
-        class="flex items-center justify-between mb-[24px] pb-[20px] border-b-[#E0E0E0] border-b"
-      >
-        <h1 class="text-[20px] font-medium font-Montserrat">Featured Plants</h1>
+    <!-- text side -->
+    <div class="flex flex-col h-screen relative">
+      <div class="px-[30px] min-[450px]:px-[50px] min-[900px]:px-[75px] mt-[20vh]">
+        <h1
+          class="font-Montserrat font-medium max-[450px]:text-[38px] max-[768px]:text-[55px] min-[450px]:text-[68px]  text-[#156963] min-[450px]:leading-20 ">
+          Kembang <br />
+          Flower Mantap
+        </h1>
+        <p class="text-[#2C1500]/80 font-Montserrat font-extralight max-[450px]:text-[18px] text-[22px] mt-[24px] ">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          ever since the 1500s,
+        </p>
+      </div>
+
+
+      <div class="grid min-[450px]:grid-cols-2 absolute bottom-0 left-0 right-0 mt-[110px]">
         <button
-          class="flex items-center justify-between border-[#E0E0E0] duration-400  border py-[8px] px-[12px] text-[12px] font-medium font-Montserrat"
-        >
-          Cheaper First
-          <svg
-            width="12"
-            height="13"
-            viewBox="0 0 12 13"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3 5L6 8L9 5"
-              stroke="black"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
+          class="cursor-pointer py-[20px] min-[900px]:!py-[40px] px-[50px] font-medium font-Montserrat text-left w-full min-h-[10vh] transition duration-200 hover:!bg-gray-100">
+          <div class="flex gap-[8px] items-center opacity-50">
+            <img src="./assets/dark-arrow-icon.svg" alt="Arrow left icon" />
+            <span class="text-[#333] text-[24px]">Previous</span>
+          </div>
+          <h2 class="text-[24px] min-[1024px]:text-[32px] text-[#156963]">Kaktus</h2>
+        </button>
+
+        <button
+          class="cursor-pointer py-[20px] min-[900px]:!py-[40px] px-[30px] font-medium font-Montserrat  text-left w-full min-h-[10vh] bg-[#156963] hover:bg-[#155652] duration-400">
+          <div class="flex gap-[8px] items-center opacity-50">
+            <span class="text-[#F2F2F2] text-[24px]">Next</span>
+            <img src="./assets/light-arrow-icon.svg" alt="Arrow right icon" />
+          </div>
+          <h2 class="text-white  text-[24px] min-[1024px]:text-[32px]">Rahasia Plant</h2>
         </button>
       </div>
+    </div>
+  </section>
 
-      <div
-        class="grid grid-cols-5 gap-[20px] max-[1320px]:grid-cols-3 max-[620px]:grid-cols-1"
-      >
-        <div class="text-center">
-          <img class="w-full" src="./assets/cactus.svg" alt="" />
-          <p class="pt-[16px]">Kaktus Plants</p>
-          <b class="pt-[8px]">IDR 85.000</b>
-        </div>
-        <div class="text-center">
-          <img class="w-full" src="./assets/secondflower.svg" alt="" />
-          <p class="pt-[16px]">Landak Plants</p>
-          <b class="pt-[8px]">IDR 105.000</b>
-        </div>
-        <div class="text-center">
-          <img class="w-full" src="./assets/plant3.svg" alt="" />
-          <p class="pt-[16px]">Kecubung Plants</p>
-          <b class="pt-[8px]">IDR 85.000</b>
-        </div>
-        <div class="text-center">
-          <img class="w-full" src="./assets/plant4.svg" alt="" />
-          <p class="pt-[16px]">Kecubung Plants</p>
-          <b class="pt-[8px]">IDR 85.000</b>
-        </div>
-        <div class="text-center">
-          <img class="w-full" src="./assets/plant5.svg" alt="" />
-          <p class="pt-[16px]">Kecubung Plants</p>
-          <b class="pt-[8px]">IDR 85.000</b>
-        </div>
+  <!-- services -->
+  <section
+    class="container mx-auto mt-[142px] grid grid-cols-4 gap-[32px] max-[1520px]:grid-cols-2 p-[10px] max-[778px]:grid-cols-1 max-[620px]:p-[30px] max-[620px]:mt-[30px]">
+    <div class="border-[#E0E0E0] border-2 py-[22px] px-[16px] min-w-[268px]">
+      <div class="flex items-center gap-[16px]">
+        <img src="./assets/fastdelivery.svg" alt="" />
+        <h2 class="text-[16px] text-[#156963] font-bold">
+          Fast <br />
+          Delivery
+        </h2>
       </div>
-    </section>
+      <p class="mt-[16px] text-[#2C1500]">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard
+      </p>
+    </div>
+    <div class="border-[#E0E0E0] border-2 py-[22px] px-[16px] min-w-[268px]">
+      <div class="flex items-center gap-[16px]">
+        <img src="./assets/headphones 1.svg" alt="" />
+        <h2 class="text-[16px] text-[#156963] font-bold">
+          Great Customer <br />
+          Service
+        </h2>
+      </div>
+      <p class="mt-[16px] text-[#2C1500]">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard
+      </p>
+    </div>
+    <div class="border-[#E0E0E0] border-2 py-[22px] px-[16px] min-w-[268px]">
+      <div class="flex items-center gap-[16px]">
+        <img src="./assets/plant 1.svg" alt="" />
+        <h2 class="text-[16px] text-[#156963] font-bold">
+          Original <br />
+          Plants
+        </h2>
+      </div>
+      <p class="mt-[16px] text-[#2C1500]">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard
+      </p>
+    </div>
+    <div class="border-[#E0E0E0] border-2 py-[22px] px-[16px] min-w-[268px]">
+      <div class="flex items-center gap-[16px]">
+        <img src="./assets/dollar-symbol 1.svg" alt="" />
+        <h2 class="text-[16px] text-[#156963] font-bold">
+          Affordable <br />Price
+        </h2>
+      </div>
+      <p class="mt-[16px] text-[#2C1500]">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard
+      </p>
+    </div>
+  </section>
 
-    <section class="container mx-auto mt-[80px] grid grid-cols-2 gap-[84px] p-[20px] max-[1184px]:grid-cols-1">
-      <div class="max-[1184px]:order-last">
-        <h1 class="text-[40px] font-Montserrat font-bold mb-[26px]">Buy more plants, it helps you to be relaxed</h1>
-        <p class="text-[#2C1500]/80 text-[22px] font-normal leading-9 mb-[220px] max-[1230px]:mb-[90px] ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida
-          gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo.
-          Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros
-          sapien. Quisque pellentesque tempus dignissim.
-        </p>
-        <img class="w-full " src="./assets/img1.svg" alt="">
-      </div>
-      <div class="max-[600px]:mt-[10px]">
-        <img class="w-full" src="./assets/img.svg" alt="">
-      </div>
-    </section>
+  <section class="container mx-auto mt-[83px] p-[10px] max-[620px]:p-[30px]">
+    <div class="flex items-center justify-between mb-[24px] pb-[20px] border-b-[#E0E0E0] border-b">
+      <h1 class="text-[20px] font-medium font-Montserrat">Featured Plants</h1>
+      <button
+        class="flex items-center justify-between border-[#E0E0E0] duration-400  border py-[8px] px-[12px] text-[12px] font-medium font-Montserrat">
+        Cheaper First
+        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 5L6 8L9 5" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
 
-    <section class="container mx-auto mt-[80px] flex justify-evenly  p-[7px]  bg-[#F3F4F6] max-[786px]:flex-col max-[786px]:mt-[10px] ">
-      <div>
-        <h1 class="text-[40px] mt-[88px] mb-[32px] font-bold max-[786px]:px-[15px]">Get your favourites plant on <br class="max-[986px]:hidden"> our shop now</h1>
-        <button class="bg-[#156963] cursor-pointer text-[14px] text-white hover:text-[#156963] hover:bg-white duration-400 hover:border-[#156963] border-2 py-[10px] px-[42px] max-[786px]:mb-[15px] max-[786px]:pl-[15px]">Visit Shop</button>
+    <div class="grid grid-cols-5 gap-[20px] max-[1320px]:grid-cols-3 max-[620px]:grid-cols-1">
+      <div class="text-center">
+        <img class="w-full" src="./assets/cactus.svg" alt="" />
+        <p class="pt-[16px]">Kaktus Plants</p>
+        <b class="pt-[8px]">IDR 85.000</b>
       </div>
-      <div class="max-[770px]:hidden">
-        <img class="w-full h-full " src="./assets/flower.svg" alt="" >
+      <div class="text-center">
+        <img class="w-full" src="./assets/secondflower.svg" alt="" />
+        <p class="pt-[16px]">Landak Plants</p>
+        <b class="pt-[8px]">IDR 105.000</b>
       </div>
-      
-    </section>
-        
-    <div class="w-full h-[1px] bg-[#156963] my-3 mt-[20px]" ></div>
+      <div class="text-center">
+        <img class="w-full" src="./assets/plant3.svg" alt="" />
+        <p class="pt-[16px]">Kecubung Plants</p>
+        <b class="pt-[8px]">IDR 85.000</b>
+      </div>
+      <div class="text-center">
+        <img class="w-full" src="./assets/plant4.svg" alt="" />
+        <p class="pt-[16px]">Kecubung Plants</p>
+        <b class="pt-[8px]">IDR 85.000</b>
+      </div>
+      <div class="text-center">
+        <img class="w-full" src="./assets/plant5.svg" alt="" />
+        <p class="pt-[16px]">Kecubung Plants</p>
+        <b class="pt-[8px]">IDR 85.000</b>
+      </div>
+    </div>
+  </section>
 
-    <footer class="container mx-auto flex justify-around gap-[40px] mb-[25px] mt-[90px] px-[10px] max-[1120px]:grid grid-cols-2 max-[800px]:grid-cols-1 max-[800px];mb-[5px]">
-      <ul>
-        <li class="pb-[24px]"><a class="uppercase text-[#156963] text-2xl font-medium " href="#">plantku</a></li>
-        <li class="pb-[24px]"><a href="#" class=" text-[20px] text-[#333333] font-medium">Plantku House</a></li>
-        <li>Jl. Laksda Adisucipto No.51, Demangan, <br> Depok, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55282</li>
-      </ul>
-      <ul>
-        <li class="pb-[24px]"><a class="uppercase text-[20px] text-[#333333] font-medium" href="#">Perusahaan</a></li>
-        <li class="pb-[14px]"><a href="#" >Tentang Kami</a></li>
-        <li>Hubungi Kami</li>
-      </ul>
-      <ul>
-        <li class="pb-[24px]"><a class="uppercase text-[20px] text-[#333333] font-medium" href="#">Produk</a></li>
-        <li  class="pb-[14px]"><a href="#" >Plantku House</a></li>
-        <li>JTanaman Lain</li>
-      </ul>
-      <ul>
-        <li class="pb-[24px]"><a class="uppercase text-[20px] text-[#333333] font-medium" href="#">Berlangganan Email Kami</a></li>
-        <li><input type="text" placeholder="Masukan Alamat Email" class="border-[#F2F2F2] border-2 py-[8px] px-[14px] pr-[20px] rounded outline-none"> </li>
-        <button class="cursor-pointer py-[4px] px-[12px] mt-[14px] rounded bg-[#156963] text-[white] hover:text-[#156963] hover:bg-white duration-400 hover:border-[#156963] border-2">Submit</button>
-      </ul>
-    </footer>
-   
-  </body>
+  <section class="container mx-auto mt-[80px] grid grid-cols-2 gap-[84px] p-[20px] max-[1184px]:grid-cols-1">
+    <div class="max-[1184px]:order-last">
+      <h1 class="text-[40px] font-Montserrat font-bold mb-[26px]">Buy more plants, it helps you to be relaxed</h1>
+      <p class="text-[#2C1500]/80 text-[22px] font-normal leading-9 mb-[220px] max-[1230px]:mb-[90px] ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida
+        gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo.
+        Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros
+        sapien. Quisque pellentesque tempus dignissim.
+      </p>
+      <img class="w-full " src="./assets/img1.svg" alt="">
+    </div>
+    <div class="max-[600px]:mt-[10px]">
+      <img class="w-full" src="./assets/img.svg" alt="">
+    </div>
+  </section>
+
+  <section
+    class="container mx-auto mt-[80px] flex justify-evenly  p-[7px]  bg-[#F3F4F6] max-[786px]:flex-col max-[786px]:mt-[10px] ">
+    <div>
+      <h1 class="text-[40px] mt-[88px] mb-[32px] font-bold max-[786px]:px-[15px]">Get your favourites plant on <br
+          class="max-[986px]:hidden">Our shop now</h1>
+      <button
+        class="bg-[#156963] cursor-pointer text-[14px] text-white hover:text-[#156963] hover:bg-white duration-400 hover:border-[#156963] border-2 py-[10px] px-[42px] max-[786px]:mb-[15px] max-[786px]:pl-[15px]">Visit
+        Shop</button>
+    </div>
+    <div class="max-[770px]:hidden">
+      <img class="w-full h-full " src="./assets/flower.svg" alt="">
+    </div>
+
+  </section>
+
+  <div class="w-full h-[1px] bg-[#156963] my-3 mt-[20px]"></div>
+
+  <footer
+    class="container mx-auto flex justify-around gap-[40px] mb-[25px] mt-[90px] px-[10px] max-[1120px]:grid grid-cols-2 max-[800px]:grid-cols-1 max-[800px];mb-[5px]">
+    <ul>
+      <li class="pb-[24px]"><a class="uppercase text-[#156963] text-2xl font-medium " href="#">plantku</a></li>
+      <li class="pb-[24px]"><a href="#" class=" text-[20px] text-[#333333] font-medium">Plantku House</a></li>
+      <li>Jl. Laksda Adisucipto No.51, Demangan, <br> Depok, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55282</li>
+    </ul>
+    <ul>
+      <li class="pb-[24px]"><a class="uppercase text-[20px] text-[#333333] font-medium" href="#">Perusahaan</a></li>
+      <li class="pb-[14px]"><a href="#">Tentang Kami</a></li>
+      <li>Hubungi Kami</li>
+    </ul>
+    <ul>
+      <li class="pb-[24px]"><a class="uppercase text-[20px] text-[#333333] font-medium" href="#">Produk</a></li>
+      <li class="pb-[14px]"><a href="#">Plantku House</a></li>
+      <li>JTanaman Lain</li>
+    </ul>
+    <ul>
+      <li class="pb-[24px]"><a class="uppercase text-[20px] text-[#333333] font-medium" href="#">Berlangganan Email
+          Kami</a>
+        </li>
+      <li><input type="text" placeholder="Masukan Alamat Email"
+          class="border-[#F2F2F2] border-2 py-[8px] px-[14px] pr-[20px] rounded outline-none"> </li>
+      <button
+        class="cursor-pointer py-[4px] px-[12px] mt-[14px] rounded bg-[#156963] text-[white] hover:text-[#156963] hover:bg-white duration-400 hover:border-[#156963] border-2">Submit</button>
+    </ul>
+  </footer>
+
+</body>
+
 </html>
